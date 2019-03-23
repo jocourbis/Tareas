@@ -20,7 +20,9 @@ Tarea(int x, int y, int h, int w, float r, float g, float b){
 
 }
 
-
+void circulo(){
+  
+}
 
 
 }
