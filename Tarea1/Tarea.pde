@@ -20,8 +20,13 @@ Tarea(int x, int y, int h, int w, float r, float g, float b){
 
 }
 
-void circulo(){
-  
+void circulo(int x, int y, int w, int h){
+  ellipse(x,y,w,h);
+}
+
+
+void relleno(float r, float g, float b){
+  fill(r,g,b);
 }
 
 
