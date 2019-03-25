@@ -195,7 +195,7 @@ ellipse(125, 100, tamX, tamY);
 }
 
 public void kk3(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(29, 250, 255);
   noFill();
   ellipseMode(CENTER);
   ellipse(125, 300, tamX, tamY);
@@ -203,7 +203,7 @@ public void kk3(float r, float g, float b, int tamX, int tamY){
 
 public void kk4( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(255, 30, 232);
 noFill();
 ellipseMode(CENTER);
 ellipse(125, 300, tamX, tamY);
@@ -211,7 +211,7 @@ ellipse(125, 300, tamX, tamY);
 }
 
 public void kk5(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(255);
   noFill();
   ellipseMode(CENTER);
   ellipse(125, 500, tamX, tamY);
@@ -219,7 +219,7 @@ public void kk5(float r, float g, float b, int tamX, int tamY){
 
 public void kk6( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(0);
 noFill();
 ellipseMode(CENTER);
 ellipse(125, 500, tamX, tamY);
@@ -227,7 +227,7 @@ ellipse(125, 500, tamX, tamY);
 }
 
 public void kk7(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(255);
   noFill();
   ellipseMode(CENTER);
   ellipse(325, 100, tamX, tamY);
@@ -235,7 +235,7 @@ public void kk7(float r, float g, float b, int tamX, int tamY){
 
 public void kk8( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(0);
 noFill();
 ellipseMode(CENTER);
 ellipse(325, 100, tamX, tamY);
@@ -258,7 +258,7 @@ ellipse(325, 300, tamX, tamY);
 }
 
 public void kk11(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(29, 250, 255);
   noFill();
   ellipseMode(CENTER);
   ellipse(325, 500, tamX, tamY);
@@ -266,7 +266,7 @@ public void kk11(float r, float g, float b, int tamX, int tamY){
 
 public void kk12( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(255, 30, 232);
 noFill();
 ellipseMode(CENTER);
 ellipse(325, 500, tamX, tamY);
@@ -274,7 +274,7 @@ ellipse(325, 500, tamX, tamY);
 }
 
 public void kk13(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(29, 250, 255);
   noFill();
   ellipseMode(CENTER);
   ellipse(525, 100, tamX, tamY);
@@ -282,7 +282,7 @@ public void kk13(float r, float g, float b, int tamX, int tamY){
 
 public void kk14( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(255, 30, 232);
 noFill();
 ellipseMode(CENTER);
 ellipse(525, 100, tamX, tamY);
@@ -290,7 +290,7 @@ ellipse(525, 100, tamX, tamY);
 }
 
 public void kk15(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(255);
   noFill();
   ellipseMode(CENTER);
   ellipse(525, 300, tamX, tamY);
@@ -298,7 +298,7 @@ public void kk15(float r, float g, float b, int tamX, int tamY){
 
 public void kk16( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(0);
 noFill();
 ellipseMode(CENTER);
 ellipse(525, 300, tamX, tamY);
@@ -337,7 +337,7 @@ ellipse(725, 100, tamX, tamY);
 }
 
 public void kk21(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(29, 250, 255);
   noFill();
   ellipseMode(CENTER);
   ellipse(725, 300, tamX, tamY);
@@ -345,7 +345,7 @@ public void kk21(float r, float g, float b, int tamX, int tamY){
 
 public void kk22( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(255, 30, 232);
 noFill();
 ellipseMode(CENTER);
 ellipse(725, 300, tamX, tamY);
@@ -353,7 +353,7 @@ ellipse(725, 300, tamX, tamY);
 }
 
 public void kk23(float r, float g, float b, int tamX, int tamY){
-  stroke(r, g, b);
+  stroke(255);
   noFill();
   ellipseMode(CENTER);
   ellipse(725, 500, tamX, tamY);
@@ -361,7 +361,7 @@ public void kk23(float r, float g, float b, int tamX, int tamY){
 
 public void kk24( int tamX, int tamY){
 strokeWeight(30);
-stroke(255, 83, 13);
+stroke(0);
 noFill();
 ellipseMode(CENTER);
 ellipse(725, 500, tamX, tamY);
