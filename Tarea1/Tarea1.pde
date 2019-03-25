@@ -1,5 +1,4 @@
-
-float n = 0;
+import processing.pdf.*;
 
 Tarea t;
 int x;
@@ -16,6 +15,7 @@ boolean a = false;
 void setup()
 {
 size(842,595);
+beginRecord(PDF, "jo4.pdf");
 background(0);
 t = new Tarea(x, y, h, w, r, g, b);
 }
@@ -84,4 +84,11 @@ void keyPressed(){
     velocidad = 2;
     }
   }
+if (keyPressed){
+  if (key == 'f'){   //cuando apreto F saca la foto
+    endRecord();
+    exit();
+  }
+}
+
 }

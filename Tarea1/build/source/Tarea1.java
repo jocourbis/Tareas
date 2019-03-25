@@ -3,6 +3,8 @@ import processing.data.*;
 import processing.event.*; 
 import processing.opengl.*; 
 
+import processing.pdf.*; 
+
 import java.util.HashMap; 
 import java.util.ArrayList; 
 import java.io.File; 
@@ -15,7 +17,6 @@ import java.io.IOException;
 public class Tarea1 extends PApplet {
 
 
-float n = 0;
 
 Tarea t;
 int x;
@@ -32,6 +33,7 @@ boolean a = false;
 public void setup()
 {
 
+beginRecord(PDF, "jo4.pdf");
 background(0);
 t = new Tarea(x, y, h, w, r, g, b);
 }
@@ -100,6 +102,13 @@ public void keyPressed(){
     velocidad = 2;
     }
   }
+if (keyPressed){
+  if (key == 'f'){   //cuando apreto F saca la foto
+    endRecord();
+    exit();
+  }
+}
+
 }
 class Tarea{
 
