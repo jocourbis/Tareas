@@ -179,7 +179,7 @@ public void kk5(float r, float g, float b, int tamX, int tamY){
   ellipse(125, 500, tamX, tamY);
 }
 
-public void kk6( int tamX, int tamY){
+public void kk6(int tamX, int tamY){
 strokeWeight(30);
 stroke(0);
 noFill();
